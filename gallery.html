@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - Akhanda Vidya Sadan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: #1a2a3a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            background: #2c3e50;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 40px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 280px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #1a2a3a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Akhanda Vidya Sadan</h1>
+    <p>Photo Gallery</p>
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admissions.html">Admissions</a>
+    <a href="rules.html">Rules</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- School -->
+    <h2>Our School</h2>
+    <div class="gallery">
+        <img src="images/school1.jpg">
+        <img src="images/school2.jpg">
+        <img src="images/school3.jpg">
+    </div>
+
+    <!-- Activities -->
+    <h2>Student Activities</h2>
+    <div class="gallery">
+        <img src="images/activity1.jpg">
+        <img src="images/activity2.jpg">
+        <img src="images/activity3.jpg">
+    </div>
+
+    <!-- Classroom -->
+    <h2>Classroom Learning</h2>
+    <div class="gallery">
+        <img src="images/class1.jpg">
+        <img src="images/class2.jpg">
+        <img src="images/class3.jpg">
+    </div>
+
+    <!-- Events -->
+    <h2>Events & Celebrations</h2>
+    <div class="gallery">
+        <img src="images/event1.jpg">
+        <img src="images/event2.jpg">
+        <img src="images/event3.jpg">
+    </div>
+
+    <!-- Mindfulness -->
+    <h2>Yoga & Mindfulness</h2>
+    <div class="gallery">
+        <img src="images/yoga1.jpg">
+        <img src="images/yoga2.jpg">
+        <img src="images/yoga3.jpg">
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Akhanda Vidya Sadan</p>
+</footer>
+
+</body>
+</html>
